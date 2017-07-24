@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-3.1.1.min.js"></script>
+		<script src="../js/zepto.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/t-zhuce.css"/>
+	</head>
+	<body>
+		<div id="fix"></div>
+		<header>
+			
+			<div class="head">
+				<a href="../index.html"><img src="../images/003_03.png" alt="" /></a>
+				<div>
+					<span id="tit">注册量统计</span>
+					<span id="btn">▼</span>
+				</div>
+				<div></div>
+				<ul id="show">
+					<li>
+						<a href="#" class="a-1">全部</a>
+					</li>
+					<li class="strip">
+						<span class="strip-1"></span>
+						<span class="strip-txt">应用场景</span>
+						<span class="strip-1"></span>
+					</li>
+					<li>
+						<a href="#">APP</a><a href="#">H5/web</a>
+					</li>
+					<li class="strip">
+						<span class="strip-1"></span>
+						<span class="strip-txt">注册方式</span>
+						<span class="strip-1"></span>
+					</li>
+					<li>
+						<a href="#">闪注</a><a href="#">短信</a>
+					</li>
+				</ul>
+				
+			</div>			
+			<img src="../images/t-02.png" alt="" />
+		</header>
+		<ul class="tabs" id="tabs">
+			<li class="on">今日注册量</li>
+			<li>一周注册量</li>
+			<li>一个月注册量</li>
+		</ul>
+		
+		<div id="box">
+			<div>
+			<ul class="zhuce-list">
+				<li>
+					<p>15802012356</p>
+					<p>
+						<span class="sp-or">天天消消乐</span>
+						<span class="sp-or">APP场景</span>
+						<span class="sp-or">短信注册</span>
+					</p>
+					<p>注册时间 : 2017/7/20 20:00</p>
+				</li>
+				<li>
+					<p>15205481254</p>
+					<p>
+						<span class="sp-or">天天消消乐</span>
+						<span class="sp-bl">H5/web场景</span>
+						<span class="sp-re">闪注注册</span>
+					</p>
+					<p>注册时间 : 2017/7/20 20:00</p>
+				</li>
+				<li>
+					<p>13054826256</p>
+					<p>
+						<span class="sp-or">天天消消乐</span>
+						<span class="sp-or">APP场景</span>
+						<span class="sp-re">闪注注册</span>
+					</p>
+					<p>注册时间 : 2017/7/20 20:00</p>
+				</li>
+				<li>
+					<p>18656258421</p>
+					<p>
+						<span class="sp-or">天天消消乐</span>
+						<span class="sp-or">APP场景</span>
+						<span class="sp-or">短信注册</span>
+					</p>
+					<p>注册时间 : 2017/7/20 20:00</p>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h2>There's nothing here!</h2>
+			<p>(这里什么都没有)</p>
+		</div>
+		<div>
+			<h2>都告诉你什么都没有了还点，点，点！</h2>
+		</div>
+	</div>
+				
+	</body>
+	<script type="text/javascript">
+		(function(win,doc){
+		    //浏览器缩放时
+		    win.onresize = function(){
+		        change();
+		    };
+		    change();
+		    function change(){
+		        var oFs = doc.documentElement.clientWidth/(640/20);
+		        //设置根目录字体大小
+		        doc.documentElement.style.fontSize = oFs + 'px';
+		    }
+		})(window,document);
+		
+		$("#btn").click(function(){
+			$("#show").stop().slideToggle();
+		});
+		$("#btn").click(function(){
+			$("#fix").fadeToggle();
+		});
+		
+		(function($){
+			$("#tabs").on('click','li',function(){
+				var index=$(this).index();
+				$("#box>div").eq(index).css("transform","translateX(0)").siblings().css("transform","translateX(100%)");
+				$(this).addClass("on").siblings().removeClass("on");
+			})
+		})(Zepto);
+	</script>
+</html>

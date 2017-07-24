@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>	
+		<link rel="stylesheet" type="text/css" href="../css/coupon1.css"/>
+	</head>
+	<body>
+	<div class="header">
+		<a href="yan1.html"> <img src="../images/left.png" alt=""/></a>
+		<a href="yan1.html" class="a1">
+			<span class="span">充值详情</span><img src="../images/img1-3.gif"/>
+		</a>
+		<span></span>
+	</div>
+		<div class="content">
+			<div class="content-1">
+				<div class="con-1">
+					<a href="#">全部账户</a>
+				</div>				
+			</div>
+			<div class="content-2">			
+				<p>应用</p>
+			</div>
+			<div class="content-3">
+				<a href="#"><span>天天消消乐</span></a>
+				<a href="#"><span>大话西游</span></a>
+				<a href="#"><span>王者荣耀</span></a>
+			</div>
+		</div>
+		<div class="box">
+			<div class="content-4">
+			<div class="box-1">
+				<div class="left">
+					<p>闪注充值量</p>
+					<p>20000条</p>
+				</div>
+				
+			</div>
+			<div class="box-2">
+				<div class="right">
+					<p>短信充值量</p>
+					<p>5000条</p>
+				</div>					
+			</div>			
+		</div>
+		<div class="content-5"></div>
+		<div class="content-6">
+			<div class="box-1">
+				<span>我的消费</span>
+				<a href="#"><span>查看明细></span></a>
+			</div>
+			<div class="box-2">
+				<div class="box-3">
+					<div class="left">
+						<p>闪注充值量</p>
+						<p>20000条</p>
+					</div>
+					
+				</div>
+				<div class="box-4">
+					<div class="right">
+						<p>短信充值量</p>
+						<p>5000条</p>
+					</div>					
+				</div>
+			</div>
+		</div>
+			<div class="content-7"></div>
+		</div>
+		
+
+			
+		
+	</body>
+	<script>
+	(function(win,doc){
+		//浏览器缩放时
+		win.onresize=function(){
+			change();	
+		};
+		change();
+		function change(){		
+		//320  20px 
+		//414  20px
+			var oFs=doc.documentElement.clientWidth/(640/20);
+			//设置根目录字体大小
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	})(window,document);
+	</script>
+</html>

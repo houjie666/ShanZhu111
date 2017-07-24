@@ -1,0 +1,184 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.header{
+    width:32rem;
+    height: 5.45rem;
+    background: #FFAC2E;
+    display: flex;
+    justify-content: space-between;
+    a:first-child{
+        margin-top:2.7rem;
+        margin-left: 1.25rem;
+        font-size: 1.55rem;
+        color: #FFFFFF;
+    }
+    a:nth-child(2){
+        p{
+        margin-top:2.7rem ;
+        font-size: 1.6rem;
+        color: #FFFFFF;   
+        img{
+            width: 0.7rem;
+            height: 0.65rem;
+        }
+       }
+    }
+}
+
+.content{
+     width:32rem;
+     height: 15.65rem;
+     .content-1{
+         width: 100%;
+         height: 5.65rem;
+         .con-1{
+             width:9.15rem;
+             height: 3.4rem;
+             background: #FFAD2F;
+             border: 1px solid #FFAD2F;
+             border-radius:0.5rem;
+             margin-top: 2.25rem;
+             margin-left:2.3rem;
+             a{
+                 display: block;
+                 color: white;
+                 font-size: 1.3rem;
+                 width: 9.15rem;
+                 height: 3.4rem;
+                 line-height: 3.4rem;
+                 text-align: center;
+             }
+         }
+     }
+     .content-2{
+         width: 90%;
+         margin: 0 auto;
+         border-top: 2px solid #cccccc;
+         p{
+             width: 10%;
+             height: 5%;
+             margin: 0 auto;
+             background: white;
+             margin-top: -3%;
+             text-align: center;
+         } 
+     }
+    .content-3{
+        margin-top: 2.2rem;
+        display: flex;
+        justify-content: space-around;
+        a{
+            width:25%;
+            height:3.4rem;
+            background: #E0E0E0;
+            text-align: center;
+            line-height:3.4rem;
+            font-size:1.35rem;
+        }
+    }  
+}
+.box{
+    position: relative;
+    height: 36rem;
+.content-4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .box-1{
+        width: 50%;
+        .left{
+            margin-left:3.65rem;
+            p:first-child{
+                font-size: 1rem;
+                color:#CCCCCC;
+            }
+            p:last-child{
+                color: red;
+                font-size:1.55rem;
+            }
+        }      
+    }
+     .box-2{
+        width: 50%;            
+        .right{
+            margin-right:3.65rem;
+             p:first-child{
+                font-size: 1rem;
+                color:#CCCCCC;
+            }
+            p:last-child{
+                color: red;
+                font-size:1.55rem;
+            }            
+        }              
+    }
+}
+    .content-5{
+        width: 100%;
+        height:3.5rem;
+        background: #E0E0E0;
+    }
+    .content-6{
+        .box-1{
+            display: flex;
+            justify-content:space-between;
+            border-bottom:1px solid #ccc ;
+            span{
+                font-size: 1.35rem;
+                margin-left: 3.65rem;
+            }
+             a{
+                margin-right: 3.65rem;
+            }
+        }
+        .box-2{
+              width: 100%;
+              margin-top: 2.3rem;
+              display: flex;
+              justify-content: space-between; 
+                    .box-3{
+                        width: 50%;
+                        .left{
+                            margin-left:3.65rem;
+                            p:first-child{
+                                font-size: 1rem;
+                                color:#CCCCCC;
+                            }
+                            p:last-child{
+                                color: red;
+                                font-size:1.55rem;
+                            }
+                        }      
+                    }
+                     .box-4{
+                        width: 50%;            
+                        .right{
+                            margin-right:3.65rem;
+                             p:first-child{
+                                font-size: 1rem;
+                                color:#CCCCCC;
+                            }
+                            p:last-child{
+                                color: red;
+                                font-size:1.55rem;
+                            }            
+                        }              
+                    }
+          }
+    } 
+    .content-7{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:36rem; 
+        background: black;
+        background:rgba(0,0,0,0.3) ;     
+    }
+    } 

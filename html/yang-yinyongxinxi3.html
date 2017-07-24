@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/yang-yinyongxinxi.css"/>
+		<link rel="stylesheet" href="../css/base.css"/>
+		<title></title>
+	</head>
+<script>
+	(function(win,doc){
+		//浏览器缩放时
+		
+		win.onresize=function(){
+			change();	
+		};
+		change();
+		function change(){
+			var oFs=doc.documentElement.clientWidth/(320/20);
+	
+			//设置根目录字体大小
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	})(window,document);
+</script>
+<style>
+	.yang-header{
+		background: #f84526;
+	}
+</style>
+	<body class="yang-nav-1">
+	<header style="background: orangered">
+		<a href="yang-yingyongxinxi.html" class="a2"><img src="../images/img6-kuohao.png"/></a>
+		<h2>应用信息</h2>
+		<a href="yang-yinyongxinxi3.html" class="a3">新增应用</a>
+	</header>
+		
+		
+		<div class="yang-yangtouxia">
+			<div><img src="../images/img6-toubu.png"/></div>
+			<div>
+				<div>新增应用急送</div>
+				<div>100条短信.100闪注量</div>
+			</div>
+		</div>
+		<ul class="yang-navul">
+			<!--引用信息-->
+			<li class="yang-navli1"><div>应用信息</div></li>
+			<li class="yang-navli2">
+				<div><span>*</span>接口密码</div>
+				<div><a href="#">SDK或者接口密码<span>&gt;</span></a></div>
+			</li>
+			<li class="yang-navli2">
+				<div><span>*</span>通信密钥</div>
+			
+				<div><a href="#">SDK或者接口通信加解密密钥<span>&gt;</span></a></div>
+			</li>
+			<!--app-->
+			<li class="yang-navli1"><div>APP</div></li>
+			<li class="yang-navli2">
+				<div>名称</div>
+				<div><a href="#">APP的名称<span>&gt;</span></a></div>
+			</li>
+			<li class="yang-navli2">
+				<div>包名</div>
+		
+				<div><a href="#">APP的真实包名<span>&gt;</span></a></div>
+			</li>
+			<li class="yang-navli2">
+				<div>LOGO文件</div>
+				<div><a href="#">图片类型：jpg,peng大小：1M <span>&gt;</span></a></div>
+			</li>
+			<li class="yang-navli2">
+				<div>APP截图</div>
+			
+				<div><a href="#">图片类型：jpg,peng大小：1M <span>&gt;</span></a></div>
+			</li>
+			<li class="yang-navli1"><div>H5/web信息<a href="#">用户注册发送短信(内容前缀.后跟校验码)</a></div></li>
+			<li class="yang-navli2">
+				<div>短息内容</div>
+				<div><a href="#">长度不得超过20个字<span>&gt;</span></a></div>
+			</li>
+		</ul>
+		<div class="yangfooter"><a href="#">提交</a></div>
+		
+		
+		
+		
+		
+	</body>
+</html>

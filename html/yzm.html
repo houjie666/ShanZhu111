@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输入验证码页面</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="../js/zepto.min.js"></script>
+    <link rel="stylesheet" href="../css/yzm.css">
+</head>
+<body>
+<div class="header">
+    <p><a href="tel.html"><img src="../images/yanzhengma_03.png" alt=""></a></p>
+    <p>忘记密码</p>
+    <p></p>
+</div>
+<p class="title">请输入您收到的验证码</p>
+
+<form action="">
+    <p><label><img src="../images/yanzhengma_06.png" alt=""></label><input type="text" placeholder="验证码"><span class="miao">60</span></p>
+</form>
+
+<div class="nextbtn">下一步</div>
+
+<script>
+    $(function () {
+        (function(win,doc){
+            //浏览器缩放时
+            win.onresize = function(){
+                change();
+            };
+            change();
+            function change(){
+                var oFs = doc.documentElement.clientWidth/640*20;
+                //设置根目录字体大小
+                doc.documentElement.style.fontSize = oFs + 'px';
+            }
+        })(window,document);
+
+        $(".nextbtn").tap(function () {
+            window.location.href="resert.html"
+        })
+
+        var miao=Number($(".miao").text())
+        setInterval(function () {
+            if(miao==0){
+                miao=0
+            }
+            $(".miao").html(miao--+"s")
+        },1000)
+
+
+    })
+</script>
+</body>
+</html>

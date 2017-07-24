@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+.header {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  background: #FFAC2E;
+  display: flex;
+  justify-content: space-between; }
+  .header a:first-child {
+    margin-left: 1.25rem;
+    font-size: 1.55rem;
+    color: #FFFFFF; }
+.span{
+    font-size: 1.6rem;
+    color: #FFFFFF; }
+    .header a:nth-child(2) p img {
+      width: 0.7rem;
+      height: 0.65rem; }
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+.content {
+  width: 32rem; }
+  .content .top {
+    width: 32rem;
+    height: 22.25rem; }
+    .content .top .top-1 {
+      height: 2.5rem;
+      height: 2.5rem;
+      background: #DBDBDB;
+      line-height: 2.5rem; }
+      .content .top .top-1 p {
+        font-size: 1rem;
+        margin-left: 1.05rem;
+        color: #B2B2B2; }
+        .content .top .top-1 p span {
+          margin-left: 0.6rem; }
+    .content .top .ul-1 {
+      background: white; }
+      .content .top .ul-1 li:first-child {
+        height: 4.95rem;
+        border-bottom: 1px solid #B2B2B2; }
+        .content .top .ul-1 li:first-child .box1 {
+          float: left;
+          margin-left: 0.65rem;
+          margin-top: 1.15rem; }
+          .content .top .ul-1 li:first-child .box1 img {
+            width: 2.45rem;
+            height: 2.6rem; }
+        .content .top .ul-1 li:first-child .box2 {
+          float: left;
+          margin-left: 1.3rem;
+          margin-top: 0.85rem; }
+          .content .top .ul-1 li:first-child .box2 div a:hover {
+            color: red; }
+          .content .top .ul-1 li:first-child .box2 div a:first-child {
+            display: block;
+            color: #FFCB7B;
+            margin-top: 0.3rem;
+            float: left; }
+            .content .top .ul-1 li:first-child .box2 div a:first-child span {
+              display: inline-block;
+              width: 6.3rem;
+              height: 1.65rem;
+              border: 1px solid #FFCB7B;
+              border-radius: 1rem;
+              text-align: center; }
+          .content .top .ul-1 li:first-child .box2 div a:last-child {
+            display: inline-block;
+            float: left;
+            font-size: 1.3rem;
+            margin-top: 0.3rem;
+            margin-left: 0.45rem; }
+            .content .top .ul-1 li:first-child .box2 div a:last-child span:last-child {
+              float: left; }
+          .content .top .ul-1 li:first-child .box2 p {
+            margin-top: 0.4rem; }
+        .content .top .ul-1 li:first-child .box3 {
+          float: right;
+          margin-top: 2rem;
+          margin-right: 1rem; }
+          .content .top .ul-1 li:first-child .box3 span {
+            color: #4CE154;
+            font-size: 1.25rem; }
+      .content .top .ul-1 li:nth-child(2) {
+        height: 4.95rem;
+        border-bottom: 1px solid #B2B2B2; }
+        .content .top .ul-1 li:nth-child(2) .box1 {
+          float: left;
+          margin-left: 0.65rem;
+          margin-top: 1.15rem; }
+          .content .top .ul-1 li:nth-child(2) .box1 img {
+            width: 2.45rem;
+            height: 2.6rem; }
+        .content .top .ul-1 li:nth-child(2) .box2 {
+          float: left;
+          margin-left: 1.3rem;
+          margin-top: 0.85rem; }
+          .content .top .ul-1 li:nth-child(2) .box2 div a:hover {
+            color: red; }
+          .content .top .ul-1 li:nth-child(2) .box2 div a:first-child {
+            display: block;
+            color: #76E5FB;
+            margin-top: 0.3rem;
+            float: left; }
+            .content .top .ul-1 li:nth-child(2) .box2 div a:first-child span {
+              display: inline-block;
+              width: 6.3rem;
+              height: 1.65rem;
+              border: 1px solid #76E5FB;
+              border-radius: 1rem;
+              text-align: center; }
+          .content .top .ul-1 li:nth-child(2) .box2 div a:last-child {
+            display: inline-block;
+            float: left;
+            font-size: 1.3rem;
+            margin-top: 0.3rem;
+            margin-left: 0.45rem; }
+            .content .top .ul-1 li:nth-child(2) .box2 div a:last-child span:last-child {
+              float: left; }
+          .content .top .ul-1 li:nth-child(2) .box2 p {
+            margin-top: 0.4rem; }
+        .content .top .ul-1 li:nth-child(2) .box3 {
+          float: right;
+          margin-top: 2rem;
+          margin-right: 1rem; }
+          .content .top .ul-1 li:nth-child(2) .box3 span {
+            color: #F74912;
+            font-size: 1.25rem; }
+      .content .top .ul-1 li:nth-child(3) {
+        height: 4.95rem;
+        border-bottom: 1px solid #B2B2B2; }
+        .content .top .ul-1 li:nth-child(3) .box1 {
+          float: left;
+          margin-left: 0.65rem;
+          margin-top: 1.15rem; }
+          .content .top .ul-1 li:nth-child(3) .box1 img {
+            width: 2.45rem;
+            height: 2.6rem; }
+        .content .top .ul-1 li:nth-child(3) .box2 {
+          float: left;
+          margin-left: 1.3rem;
+          margin-top: 0.85rem; }
+          .content .top .ul-1 li:nth-child(3) .box2 div a:hover {
+            color: red; }
+          .content .top .ul-1 li:nth-child(3) .box2 div a:first-child {
+            display: block;
+            color: #FEC671;
+            margin-top: 0.3rem;
+            float: left; }
+            .content .top .ul-1 li:nth-child(3) .box2 div a:first-child span {
+              display: inline-block;
+              width: 6.3rem;
+              height: 1.65rem;
+              border: 1px solid #FEC671;
+              border-radius: 1rem;
+              text-align: center; }
+          .content .top .ul-1 li:nth-child(3) .box2 div a:last-child {
+            display: inline-block;
+            float: left;
+            font-size: 1.3rem;
+            margin-top: 0.3rem;
+            margin-left: 0.45rem; }
+            .content .top .ul-1 li:nth-child(3) .box2 div a:last-child span:last-child {
+              float: left; }
+          .content .top .ul-1 li:nth-child(3) .box2 p {
+            margin-top: 0.4rem; }
+        .content .top .ul-1 li:nth-child(3) .box3 {
+          float: right;
+          margin-top: 2rem;
+          margin-right: 1rem; }
+          .content .top .ul-1 li:nth-child(3) .box3 span {
+            color: #F74912;
+            font-size: 1.25rem; }
+      .content .top .ul-1 li:nth-child(4) {
+        height: 4.95rem; }
+        .content .top .ul-1 li:nth-child(4) .box1 {
+          float: left;
+          margin-left: 0.65rem;
+          margin-top: 1.15rem; }
+          .content .top .ul-1 li:nth-child(4) .box1 img {
+            width: 2.45rem;
+            height: 2.6rem; }
+        .content .top .ul-1 li:nth-child(4) .box2 {
+          float: left;
+          margin-left: 1.3rem;
+          margin-top: 0.85rem; }
+          .content .top .ul-1 li:nth-child(4) .box2 div a:hover {
+            color: red; }
+          .content .top .ul-1 li:nth-child(4) .box2 div a:first-child {
+            display: block;
+            color: #F253F8;
+            margin-top: 0.3rem;
+            float: left; }
+            .content .top .ul-1 li:nth-child(4) .box2 div a:first-child span {
+              display: inline-block;
+              width: 6.3rem;
+              height: 1.65rem;
+              border: 1px solid #F253F8;
+              border-radius: 1rem;
+              text-align: center; }
+          .content .top .ul-1 li:nth-child(4) .box2 div a:last-child {
+            display: inline-block;
+            float: left;
+            font-size: 1.3rem;
+            margin-top: 0.3rem;
+            margin-left: 0.45rem; }
+            .content .top .ul-1 li:nth-child(4) .box2 div a:last-child span:last-child {
+              float: left; }
+          .content .top .ul-1 li:nth-child(4) .box2 p {
+            margin-top: 0.4rem; }
+        .content .top .ul-1 li:nth-child(4) .box3 {
+          float: right;
+          margin-top: 2rem;
+          margin-right: 1rem; }
+          .content .top .ul-1 li:nth-child(4) .box3 span {
+            color: #4CE154;
+            font-size: 1.25rem; }
+  .content .top-2 {
+    height: 2.5rem;
+    height: 2.5rem;
+    background: #DBDBDB;
+    line-height: 2.5rem; }
+    .content .top-2 p {
+      font-size: 1rem;
+      margin-left: 1.05rem;
+      color: #B2B2B2; }
+  .content .ul-2 li:nth-child(1) {
+    height: 4.95rem;
+    border-bottom: 1px solid #B2B2B2; }
+    .content .ul-2 li:nth-child(1) .box1 {
+      float: left;
+      margin-left: 0.65rem;
+      margin-top: 1.15rem; }
+      .content .ul-2 li:nth-child(1) .box1 img {
+        width: 2.45rem;
+        height: 2.6rem; }
+    .content .ul-2 li:nth-child(1) .box2 {
+      float: left;
+      margin-left: 1.3rem;
+      margin-top: 0.85rem; }
+      .content .ul-2 li:nth-child(1) .box2 div a:hover {
+        color: red; }
+      .content .ul-2 li:nth-child(1) .box2 div a:first-child {
+        display: block;
+        color: #F253F8;
+        margin-top: 0.3rem;
+        float: left; }
+        .content .ul-2 li:nth-child(1) .box2 div a:first-child span {
+          display: inline-block;
+          width: 6.3rem;
+          height: 1.65rem;
+          border: 1px solid #F253F8;
+          border-radius: 1rem;
+          text-align: center; }
+      .content .ul-2 li:nth-child(1) .box2 div a:last-child {
+        display: inline-block;
+        float: left;
+        font-size: 1.3rem;
+        margin-top: 0.3rem;
+        margin-left: 0.45rem; }
+        .content .ul-2 li:nth-child(1) .box2 div a:last-child span:last-child {
+          float: left; }
+      .content .ul-2 li:nth-child(1) .box2 p {
+        margin-top: 0.4rem; }
+    .content .ul-2 li:nth-child(1) .box3 {
+      float: right;
+      margin-top: 2rem;
+      margin-right: 1rem; }
+      .content .ul-2 li:nth-child(1) .box3 span {
+        color: #4CE154;
+        font-size: 1.25rem; }
+
+/*# sourceMappingURL=coupon.css.map */

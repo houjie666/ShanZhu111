@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box; }
+
+header {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  background: #ffac2c;
+  position: relative; }
+  header h2 {
+    color: #FFFFFF; }
+  header .a2 {
+    position: absolute;
+    left: 1rem;
+    top: 0.3rem; }
+  header .a3 {
+    position: absolute;
+    right: 1rem;
+    top: 0.1rem; }
+
+.yang-yingyongnav {
+  width: 100%;
+  height: 9.5rem;
+  text-align: center; }
+  .yang-yingyongnav img {
+    margin-top: 1.75rem;
+    width: 7.75rem;
+    height: 7.75rem; }
+
+.yang-yingyongdi {
+  width: 100%;
+  text-align: center; }
+  .yang-yingyongdi div {
+    width: 100%;
+    font-size: 0.6rem;
+    color: #8d8b8c; }
+  .yang-yingyongdi div:nth-child(1) {
+    margin-top: 1.37rem; }
+  .yang-yingyongdi div:nth-child(2) {
+    margin-top: 0.8rem; }
+
+.a1 {
+  color: cornflowerblue; }
+
+.yang-nav-1 {
+  background: #f5f5f5;
+  width: 100%; }
+
+.yang-headxia {
+  width: 100%;
+  height: 4.6rem;
+  background: #FFFFFF; }
+  .yang-headxia div {
+    float: left; }
+  .yang-headxia .yang-headxia12 {
+    width: 4.4rem;
+    height: 4.6rem; }
+    .yang-headxia .yang-headxia12 img {
+      width: 2.8rem;
+      height: 2.8rem;
+      margin: 0.95rem 0.85rem 0 0.85rem; }
+  .yang-headxia .yang-headxia13 {
+    width: 11.6rem;
+    height: 4.6rem; }
+    .yang-headxia .yang-headxia13 div:nth-child(1) {
+      margin-top: 1.2rem; }
+      .yang-headxia .yang-headxia13 div:nth-child(1) a {
+        font-size: 0.8rem;
+        color: red; }
+      .yang-headxia .yang-headxia13 div:nth-child(1) span {
+        font-size: 0.55rem;
+        color: #8d8d8d; }
+    .yang-headxia .yang-headxia13 div:nth-child(2) {
+      margin-top: 0.7rem;
+      font-size: 0.55rem;
+      color: #8d8d8d; }
+
+.yang-yinyongzhong {
+  width: 100%;
+  height: 7.7rem;
+  font-size: 0.55rem;
+  padding: 0 0.7rem; }
+  .yang-yinyongzhong li {
+    margin-top: 0.9rem; }
+  .yang-yinyongzhong li:nth-child(1) {
+    width: 100%; }
+    .yang-yinyongzhong li:nth-child(1) a {
+      color: #a5a5a5; }
+    .yang-yinyongzhong li:nth-child(1) span {
+      color: #191919; }
+  .yang-yinyongzhong li:nth-child(2) {
+    width: 100%; }
+    .yang-yinyongzhong li:nth-child(2) a {
+      color: #a5a5a5; }
+    .yang-yinyongzhong li:nth-child(2) span {
+      color: #191919; }
+  .yang-yinyongzhong li:nth-child(3) {
+    width: 100%; }
+    .yang-yinyongzhong li:nth-child(3) a {
+      color: #a5a5a5; }
+    .yang-yinyongzhong li:nth-child(3) span {
+      color: #191919; }
+  .yang-yinyongzhong li:nth-child(4) {
+    width: 100%; }
+    .yang-yinyongzhong li:nth-child(4) a {
+      color: #ff4d00; }
+  .yang-yinyongzhong li:nth-child(5) {
+    width: 100%; }
+    .yang-yinyongzhong li:nth-child(5) a {
+      color: #ff4d00; }
+
+.yang-headxia2 {
+  width: 100%;
+  height: 4.6rem;
+  background: #FFFFFF;
+  border-top: 0.1rem solid #eaeaea;
+  margin-bottom: 0.4rem;
+  border-bottom: 0.1rem solid #eaeaea; }
+  .yang-headxia2 div {
+    float: left; }
+  .yang-headxia2 .yang-headxia12 {
+    width: 4.4rem;
+    height: 4.6rem; }
+    .yang-headxia2 .yang-headxia12 img {
+      width: 2.8rem;
+      height: 2.8rem;
+      margin: 0.95rem 0.85rem 0 0.85rem; }
+  .yang-headxia2 .yang-headxia13 {
+    width: 11.6rem;
+    height: 4.6rem; }
+    .yang-headxia2 .yang-headxia13 div:nth-child(1) {
+      margin-top: 1.2rem; }
+      .yang-headxia2 .yang-headxia13 div:nth-child(1) a {
+        font-size: 0.8rem;
+        color: red; }
+      .yang-headxia2 .yang-headxia13 div:nth-child(1) span {
+        font-size: 0.55rem;
+        color: #8d8d8d; }
+    .yang-headxia2 .yang-headxia13 div:nth-child(2) {
+      margin-top: 0.7rem;
+      font-size: 0.55rem;
+      color: #8d8d8d; }
+
+.yang-yangtouxia {
+  width: 100%;
+  height: 3.5rem;
+  background: #f85a2a;
+  border: 0; }
+  .yang-yangtouxia div {
+    float: left;
+    height: 3.5rem; }
+  .yang-yangtouxia div:nth-child(1) {
+    height: 3.5rem;
+    width: 7.2rem; }
+    .yang-yangtouxia div:nth-child(1) img {
+      width: 7.2rem;
+      height: 3.5rem; }
+  .yang-yangtouxia div:nth-child(2) {
+    color: #f9e8a0;
+    width: 8.8rem;
+    height: 3.5rem;
+    font-size: 0.7rem; }
+    .yang-yangtouxia div:nth-child(2) div {
+      height: 0.8rem; }
+    .yang-yangtouxia div:nth-child(2) div:nth-child(1) {
+      margin-left: 1.5rem;
+      margin-top: 0.75rem; }
+    .yang-yangtouxia div:nth-child(2) div:nth-child(2) {
+      margin-top: 0.5rem; }
+
+.yang-navul {
+  width: 100%; }
+  .yang-navul .yang-navli1 {
+    width: 16rem;
+    height: 1.7rem;
+    line-height: 1.7rem; }
+    .yang-navul .yang-navli1 div {
+      font-size: 0.6rem;
+      margin-left: 1rem;
+      color: #a7a7a7; }
+      .yang-navul .yang-navli1 div a {
+        color: red;
+        font-size: 0.2rem;
+        float: right;
+        margin: 0 0.6rem 0 0; }
+  .yang-navul .yang-navli1 {
+    display: block;
+    content: '';
+    clear: both; }
+  .yang-navul .yang-navli2 {
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    background: #ffffff;
+    border: 0.05rem solid #eeeeee; }
+    .yang-navul .yang-navli2 div {
+      font-size: 0.6rem; }
+    .yang-navul .yang-navli2 div:nth-child(1) {
+      float: left;
+      margin-left: 1rem; }
+      .yang-navul .yang-navli2 div:nth-child(1) span {
+        color: red; }
+    .yang-navul .yang-navli2 div:nth-child(2) {
+      float: right; }
+      .yang-navul .yang-navli2 div:nth-child(2) a {
+        color: #a7a7a7; }
+        .yang-navul .yang-navli2 div:nth-child(2) a span {
+          padding: 0 0.6rem 0 0.4rem; }
+
+.yangfooter {
+  height: 1.5rem;
+  background: #fed555;
+  width: 15rem;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 0.7rem;
+  border-radius: 0.2rem;
+  line-height: 1.5rem; }
+  .yangfooter a {
+    font-size: 0.7rem;
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=yang-yinyongxinxi.css.map */

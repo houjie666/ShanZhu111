@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-size: 20px; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+.clearfix {
+  clear: both;
+  display: block;
+  content: ''; }
+
+.logo {
+  width: 100%;
+  height: 16.65rem;
+  background: linear-gradient(#EF7600, #FCB407);
+  margin-bottom: 4.5rem; }
+  .logo p:nth-of-type(1) {
+    height: 3.85rem;
+    line-height: 3.85rem;
+    text-align: right;
+    margin: 0 1rem; }
+    .logo p:nth-of-type(1) a {
+      font-size: 1.2rem;
+      color: white; }
+  .logo p:nth-of-type(2) {
+    text-align: center;
+    margin-top: 2rem; }
+    .logo p:nth-of-type(2) img {
+      width: 40%; }
+
+form {
+  padding: 0 1rem;
+  margin-bottom: 3rem; }
+  form p {
+    width: 100%;
+    height: 4.4rem;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 4.4rem; }
+    form p label {
+      margin-right: 0.8rem; }
+      form p label img {
+        width: 5%; }
+    form p input {
+      width: 80%;
+      height: 80%;
+      border: none;
+      outline: none;
+      font-size: 1.2rem; }
+      form p input::-webkit-input-placeholder {
+        font-size: 1.2rem;
+        color: #BBB8BC; }
+
+.login {
+  padding: 0 1rem;
+  height: 4.35rem;
+  line-height: 4.35rem; }
+  .login a {
+    width: 100%;
+    display: inline-block;
+    background-color: #FFD974;
+    border-radius: 50rem;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem; }
+
+.forgetpass {
+  width: 100%;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  text-align: center;
+  margin-top: 16rem; }
+  .forgetpass a {
+    color: #FED668;
+    font-size: 1.4rem; }

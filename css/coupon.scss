@@ -1,0 +1,379 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.header{
+    width:32rem;
+    height: 5.45rem;
+    background: #FFAC2E;
+    display: flex;
+    justify-content: space-between;
+    a:first-child{
+        margin-top:2.7rem;
+        margin-left: 1.25rem;
+        font-size: 1.55rem;
+        color: #FFFFFF;
+    }
+    a:nth-child(2){
+        p{
+        margin-top:2.7rem ;
+        font-size: 1.6rem;
+        color: #FFFFFF;   
+        img{
+            width: 0.7rem;
+            height: 0.65rem;
+        }
+       }
+    }
+}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.content{
+    width:32rem;
+    .top{
+        width: 32rem;
+        height: 22.25rem;
+        .top-1{
+            height: 2.5rem;
+            height: 2.5rem;
+            background: #DBDBDB;
+            line-height: 2.5rem;
+            p{  
+                font-size: 1rem;
+                margin-left:1.05rem;
+                color: #B2B2B2;
+                span{
+                    margin-left: 0.6rem;
+                }
+            }
+        }
+        .ul-1{           
+            background: white;  
+            li:first-child{
+                height: 4.95rem;
+                 border-bottom: 1px solid #B2B2B2;
+                .box1{
+                    float: left;
+                    margin-left: 0.65rem;
+                    margin-top: 1.15rem;
+                    img{
+                        width: 2.45rem;
+                        height: 2.6rem;
+                    }
+                }
+                .box2{
+                    float: left;
+                    margin-left: 1.3rem;
+                    margin-top: 0.85rem;
+                    div{
+                        a:hover{
+                            color: red;
+                        }
+                        a:first-child{
+                            display: block;
+                            color: #FFCB7B;
+                            margin-top: 0.3rem;
+                            float: left;
+                          span{
+                            display: inline-block;
+                            width: 6.3rem;
+                            height:1.65rem;
+                            border: 1px solid #FFCB7B;
+                            border-radius: 1rem;
+                            text-align: center;
+                        }
+                        } 
+                        a:last-child{
+                            display:inline-block;
+                            float: left;
+                            font-size:1.3rem ; 
+                            margin-top: 0.3rem; 
+                            margin-left: 0.45rem;                          
+                           span:last-child{
+                            float: left;                           
+                           }
+                        }                      
+                        
+                    }
+                    p{
+                        margin-top: 0.4rem;
+                    }                  
+                }
+                .box3{
+                      float: right;
+                      margin-top: 2rem;
+                      margin-right: 1rem;
+                     span{                    
+                        color: #4CE154;  
+                        font-size: 1.25rem;                      
+                    }
+                }               
+            }         
+//      第二个li
+             li:nth-child(2){
+                height: 4.95rem;
+                 border-bottom: 1px solid #B2B2B2;
+                .box1{
+                    float: left;
+                    margin-left: 0.65rem;
+                    margin-top: 1.15rem;
+                    img{
+                        width: 2.45rem;
+                        height: 2.6rem;
+                    }
+                }
+                .box2{
+                    float: left;
+                    margin-left: 1.3rem;
+                    margin-top: 0.85rem;
+                    div{
+                        a:hover{
+                            color: red;
+                        }
+                        a:first-child{
+                            display: block;
+                            color: #76E5FB;
+                            margin-top: 0.3rem;
+                            float: left;
+                          span{
+                            display: inline-block;
+                            width: 6.3rem;
+                            height:1.65rem;
+                            border: 1px solid #76E5FB;
+                            border-radius: 1rem;
+                            text-align: center;
+                        }
+                        } 
+                        a:last-child{
+                            display:inline-block;
+                            float: left;
+                            font-size:1.3rem ; 
+                            margin-top: 0.3rem; 
+                            margin-left: 0.45rem;                          
+                           span:last-child{
+                            float: left;                           
+                           }
+                        }                      
+                        
+                    }
+                    p{
+                        margin-top: 0.4rem;
+                    }                  
+                }
+                .box3{
+                      float: right;
+                      margin-top: 2rem;
+                      margin-right: 1rem;
+                     span{                    
+                        color:#F74912;  
+                        font-size: 1.25rem;                      
+                    }
+                }               
+            } 
+//第三个li 
+             li:nth-child(3){
+                height: 4.95rem;
+                 border-bottom: 1px solid #B2B2B2;
+                .box1{
+                    float: left;
+                    margin-left: 0.65rem;
+                    margin-top: 1.15rem;
+                    img{
+                        width: 2.45rem;
+                        height: 2.6rem;
+                    }
+                }
+                .box2{
+                    float: left;
+                    margin-left: 1.3rem;
+                    margin-top: 0.85rem;
+                    div{
+                        a:hover{
+                            color: red;
+                        }
+                        a:first-child{
+                            display: block;
+                            color: #FEC671;
+                            margin-top: 0.3rem;
+                            float: left;
+                          span{
+                            display: inline-block;
+                            width: 6.3rem;
+                            height:1.65rem;
+                            border: 1px solid #FEC671;
+                            border-radius: 1rem;
+                            text-align: center;
+                        }
+                        } 
+                        a:last-child{
+                            display:inline-block;
+                            float: left;
+                            font-size:1.3rem ; 
+                            margin-top: 0.3rem; 
+                            margin-left: 0.45rem;                          
+                           span:last-child{
+                            float: left;                           
+                           }
+                        }                      
+                        
+                    }
+                    p{
+                        margin-top: 0.4rem;
+                    }                  
+                }
+                .box3{
+                      float: right;
+                      margin-top: 2rem;
+                      margin-right: 1rem;
+                     span{                    
+                        color:#F74912;  
+                        font-size: 1.25rem;                      
+                    }
+                }               
+            }
+//第四个li
+             li:nth-child(4){
+                height: 4.95rem;
+
+                .box1{
+                    float: left;
+                    margin-left: 0.65rem;
+                    margin-top: 1.15rem;
+                    img{
+                        width: 2.45rem;
+                        height: 2.6rem;
+                    }
+                }
+                .box2{
+                    float: left;
+                    margin-left: 1.3rem;
+                    margin-top: 0.85rem;
+                    div{
+                        a:hover{
+                            color: red;
+                        }
+                        a:first-child{
+                            display: block;
+                            color: #F253F8;
+                            margin-top: 0.3rem;
+                            float: left;
+                          span{
+                            display: inline-block;
+                            width: 6.3rem;
+                            height:1.65rem;
+                            border: 1px solid #F253F8;
+                            border-radius: 1rem;
+                            text-align: center;
+                        }
+                        } 
+                        a:last-child{
+                            display:inline-block;
+                            float: left;
+                            font-size:1.3rem ; 
+                            margin-top: 0.3rem; 
+                            margin-left: 0.45rem;                          
+                           span:last-child{
+                            float: left;                           
+                           }
+                        }                      
+                        
+                    }
+                    p{
+                        margin-top: 0.4rem;
+                    }                  
+                }
+                .box3{
+                      float: right;
+                      margin-top: 2rem;
+                      margin-right: 1rem;
+                     span{                    
+                        color:#4CE154;  
+                        font-size: 1.25rem;                      
+                    }
+                }               
+            }
+        }
+    }
+//top-2
+    .top-2{
+        height: 2.5rem;
+        height: 2.5rem;
+        background: #DBDBDB;
+        line-height: 2.5rem;
+        p{
+         font-size: 1rem;
+            margin-left:1.05rem;
+            color: #B2B2B2;
+        }
+    }
+    .ul-2{
+             li:nth-child(1){
+                height: 4.95rem;
+                border-bottom: 1px solid #B2B2B2;
+                .box1{
+                    float: left;
+                    margin-left: 0.65rem;
+                    margin-top: 1.15rem;
+                    img{
+                        width: 2.45rem;
+                        height: 2.6rem;
+                    }
+                }
+                .box2{
+                    float: left;
+                    margin-left: 1.3rem;
+                    margin-top: 0.85rem;
+                    div{
+                        a:hover{
+                            color: red;
+                        }
+                        a:first-child{
+                            display: block;
+                            color: #F253F8;
+                            margin-top: 0.3rem;
+                            float: left;
+                          span{
+                            display: inline-block;
+                            width: 6.3rem;
+                            height:1.65rem;
+                            border: 1px solid #F253F8;
+                            border-radius: 1rem;
+                            text-align: center;
+                        }
+                        } 
+                        a:last-child{
+                            display:inline-block;
+                            float: left;
+                            font-size:1.3rem ; 
+                            margin-top: 0.3rem; 
+                            margin-left: 0.45rem;                          
+                           span:last-child{
+                            float: left;                           
+                           }
+                        }                      
+                        
+                    }
+                    p{
+                        margin-top: 0.4rem;
+                    }                  
+                }
+                .box3{
+                      float: right;
+                      margin-top: 2rem;
+                      margin-right: 1rem;
+                     span{                    
+                        color:#4CE154;  
+                        font-size: 1.25rem;                      
+                    }
+                }               
+            } 
+    }
+       
+}
+

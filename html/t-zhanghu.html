@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/t-zhanghu.css"/>
+		<script src="../js/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+		<div id="fix"></div>
+		<header>			
+			<div class="head">
+				<a href="../index.html"><img src="../images/002_03.png" alt="" /></a>
+				<div>
+					<span class="tit">账户信息</span>
+					<span id="btn">▼</span>
+				</div>
+				<div></div>
+				<ul id="show">
+					<li>
+						<a href="#" class="a-1">全部账户</a>
+					</li>
+					<li class="strip">
+						<span class="strip-1"></span>
+						<span class="strip-txt">应用</span>
+						<span class="strip-1"></span>
+					</li>
+					<li class="li-2">
+						<a href="zhu.html">天天消消乐</a><a href="#">大话西游</a><a href="#">王者荣耀</a>
+					</li>
+				</ul>				
+			</div>			
+			<div class="box">
+				<div class="box-b">
+					<p class="p1">闪注账户</p>
+					<a class="p2" href="t-zhuce.html">剩余量 : <span class="sp">9500</span>条</a>
+				</div>
+				
+				<div class="box-b">
+					<p class="p1">短信账户</p>
+					<span class="p2">剩余量 : <span class="sp">865</span>条</span>
+				</div>
+			</div>
+		</header>		
+		
+		<div class="item">
+			<div class="it-1">
+				<span><img src="../images/t-03.png"/>我的充值</span>
+				<a href="yan1.html">查看明细<img src="../images/001_03.png" alt="" /></a>
+			</div>
+			<div class="it-2">
+				<div>
+					<p>闪注充值量</p>
+					<span class="sp-box"><span class="sp-red">20000</span>条</span>
+				</div>
+				<div>
+					<p>短信充值量</p>
+					<span class="sp-box"><span class="sp-red">5000</span>条</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<div class="it-1">
+				<span><img src="../images/t-01.png"/>我的消费</span>
+				<a href="yan2.html">查看明细<img src="../images/001_03.png" alt="" /></a>
+			</div>
+			<div class="it-2">
+				<div>
+					<p>闪注消费量</p>
+					<span class="sp-box"><span class="sp-red">16825</span>条</span>
+				</div>
+				<div>
+					<p>短信消费量</p>
+					<span class="sp-box"><span class="sp-red">1548</span>条</span>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		(function(win,doc){
+		    //浏览器缩放时
+		    win.onresize = function(){
+		        change();
+		    };
+		    change();
+		    function change(){
+		        var oFs = doc.documentElement.clientWidth/(640/20);
+		        //设置根目录字体大小
+		        doc.documentElement.style.fontSize = oFs + 'px';
+		    }
+		})(window,document);
+		
+		$("#btn").click(function(){
+			$("#show").stop().slideToggle();
+		})
+		$("#btn").click(function(){
+			$("#fix").fadeToggle();
+		})
+	</script>
+</html>

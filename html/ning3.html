@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../fonts/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../css/sass/user.css" />
+		<script src="../js/zepto.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="ning-top">
+				<a href="../index.html" class="fa fa-chevron-left"></a>
+				<p>个人资料</p>
+			</div>
+			<div class="ning-bottom">
+				<div class="bottom-left">
+					<a href="../index.html"><img src="../images/img7-head.png" alt="" /></a>
+					<div class="head1">
+					    <p>SZ1049</p>
+					    <div class="fa fa-user">个人用户</div>
+					</div>
+				</div>
+				<div class="bottom-right">
+					<div class="right-txt">
+						未认证
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="er_1">
+			<p>更多闪柱实时动态,请关注微信公众号:</p>
+		</div>
+		<div class="index-content">
+			<ul class="index-con2">
+				<li>
+					<a href="#">
+						<div class="con2-left">
+							<div class="con2-left-main">
+							    <p>Email</p>
+							</div>
+							
+						</div>
+						<div class="con2-right">
+							<span>未添加邮箱</span>
+							<i class="fa fa-chevron-right"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="con2-left">
+							<div class="con2-left-main">
+							    <p>联系人</p>
+							</div>
+							
+						</div>
+						<div class="con2-right">
+							<span class="s1">崔晓晓</span>
+							<i class="fa fa-chevron-right"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="con2-left">
+							<div class="con2-left-main">
+							    <p>手机号码</p>
+							</div>
+							
+						</div>
+						<div class="con2-right">
+							<span class="s1">13598759912</span>
+							<i class="fa fa-chevron-right"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<div class="bu">
+						<div class="con2-left">
+							<div class="con2-left-main">
+							    <p>身份证正面</p>
+							</div>
+							
+						</div>
+						<div class="con2-right">
+							<span>未上传身份证信息</span>
+							<i class="fa fa-chevron-right"></i>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="bu">
+						<div class="con2-left">
+							<div class="con2-left-main">
+							    <p>身份证背面</p>
+							</div>
+							
+						</div>
+						<div class="con2-right">
+							<span>未上传身份证信息</span>
+							<i class="fa fa-chevron-right"></i>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="btn">
+			<button>提交审核</button>
+		</div>
+		<div class="ning-fu">
+			<ul class="fu-bottom">
+				<li><a href="#">拍照</a></li>
+				<li><a href="#">从相册中选择</a></li>
+				<li class="no"><a href="#">取消</a></li>
+			</ul>
+		</div>
+
+	</body>
+	<script src="../js/main.js"></script>
+	<script>
+		//弹框
+		$(".bu").tap(function(){
+			$(".ning-fu").css("display","block");
+			$(".ning-fu .fu-bottom").animate({"bottom":"0"},{"duration":"500"})
+
+		});
+		$(".ning-fu").tap(function(){
+			$(".ning-fu .fu-bottom").animate({"bottom":"-10rem"},{"duration":"500"})
+			$(this).css("display","none")
+		});
+
+	</script>
+</html>
